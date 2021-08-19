@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Trade+Winds&display=swap');
+
+
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Trade Winds', cursive;
+}
+.heading {
+    font-family: 'Megrim', cursive;
+    height: 5rem;
+    background-color: #8a817c;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding:1.2rem;
+    letter-spacing: 2px;
+}
+
+.container {
+    /* border: 1px solid purple; */
+    max-width: 65rem;
+    margin: 0 20rem;
+}
+
+#translateBtn {
+    font-family: 'Megrim', cursive;
+    border: none;
+    margin: 1rem 20rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: .3rem;
+    letter-spacing: 1px;
+}
+
+#translateBtn:hover {
+    background-color: #8a817c;
+    font-weight: bold;
+    color: white;
+}
+
+.txt {
+    font-size: 1.5rem;
+    margin-left: 14rem;
+}
+
+.inpText {
+    width: 85%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Trade Winds', cursive;
+}
+
+.output {
+    border: 1px solid black;
+    height: 20vh;
+    width: 85%;
+    margin: 1rem;
+    padding: 1rem;
+    font-style: normal;
+    font-size: 2rem;
+    font-family: 'Trade Winds', cursive;
+}
+
+.info {
+    background-color: #8a817c;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+.info-text {
+    width: 50rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+span {
+    letter-spacing: 2px;
 }
